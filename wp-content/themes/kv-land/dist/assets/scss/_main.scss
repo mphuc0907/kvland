@@ -1,0 +1,133 @@
+:root {
+  --f-body: "Mulish";
+  --f-second: "Nunito";
+  --white: #fff;
+  --red: #BC202F;
+  --black: #41464B;
+}
+html{
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--f-body);
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+input,
+textarea,
+select {
+  outline: 0;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+  }
+}
+figure {
+  margin: 0;
+}
+
+$m-18: 1800px;
+$m-15: 1500px;
+$m-14: 1480px;
+$m-13: 1380px;
+$m-12: 1280px;
+$m-11: 1199px;
+$m-9: 991px;
+$m-7: 767px;
+$m-6: 667px;
+$m-4: 480px;
+
+@mixin Responsive($screen) {
+  @if $screen == m-18 {
+    @media only screen and (min-width: $m-15) and (max-width: $m-18) {
+      @content;
+    }
+  } @else if $screen == m-14 {
+    @media only screen and (max-width: $m-14) {
+      @content;
+    }
+  } @else if $screen == m-13 {
+    @media only screen and (max-width: $m-13) {
+      @content;
+    }
+  } @else if $screen == m-12 {
+    @media only screen and (max-width: $m-12) {
+      @content;
+    }
+  } @else if $screen == m-11 {
+    @media only screen and (max-width: $m-11) {
+      @content;
+    }
+  } @else if $screen == m-9 {
+    @media only screen and (max-width: $m-9) {
+      @content;
+    }
+  } @else if $screen == m-7 {
+    @media only screen and (max-width: $m-7) {
+      @content;
+    }
+  } @else if $screen == m-6 {
+    @media only screen and (max-width: $m-6) {
+      @content;
+    }
+  } @else if $screen == m-4 {
+    @media only screen and (max-width: $m-4) {
+      @content;
+    }
+  }
+}
+
+@media (min-width: 1499px) {
+  .container {
+    max-width: 1300px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container-2{
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}
+.row-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.row-10 {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.row-15 {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.p-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.p-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.p-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.action{
+  -webkit-transition: 0.4s ease-out 0s;
+  -moz-transition: 0.4s ease-out 0s;
+  -ms-transition: 0.4s ease-out 0s;
+  -o-transition: 0.4s ease-out 0s;
+  transition: 0.4s ease-out 0s;
+}

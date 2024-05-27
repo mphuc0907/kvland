@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/mulish/Mulish-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/mulish/Mulish-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/mulish/Mulish-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/mulish/Mulish-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/mulish/Mulish-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/mulish/Mulish-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/nunito/Nunito-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/nunito/Nunito-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/nunito/Nunito-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/nunito/Nunito-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/nunito/Nunito-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/nunito/Nunito-ExtraBold.ttf) format('truetype');
+}
